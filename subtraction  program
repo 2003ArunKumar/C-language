@@ -1,0 +1,13 @@
+ #include<stdio.h>
+ int main () {
+     int a;
+     int b;
+     int sub;
+     printf("Enter the first number: \n");
+     scanf("%d",&a);
+     printf("Enter the seccond number: \n");
+     scanf("%d",&b);
+     sub = a-b;
+     printf("Sub of two numbers: %d \n",a-b);
+     return 0;
+ }

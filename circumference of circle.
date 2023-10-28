@@ -1,0 +1,12 @@
+// C-program-to-find-the-Circumference-of-the-circle.
+#include<stdio.h>
+int main () {
+    int radius;
+    float Circumference;
+    printf("Enter the radius of the circle: \n");
+    scanf("%d",&radius);
+    Circumference = 2 * 3.14 * radius;
+    printf("%f",Circumference);
+    return 0;
+
+}

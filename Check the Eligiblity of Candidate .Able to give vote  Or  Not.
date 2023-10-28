@@ -1,0 +1,14 @@
+// c-programme-to-find-the-candidate-is-eligible-to-give-vote-are-not.
+#include<stdio.h>
+int main () {
+    int age;
+    printf("Enter the age of candidate: ");
+    scanf("%d",&age);
+    if (age>=18) {
+        printf("Candidate is eligible to give vote.");
+    }
+    else {
+        printf("Candidate is not eligible to give vote.");
+    }
+    return 0;
+}

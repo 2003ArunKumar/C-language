@@ -1,0 +1,14 @@
+//C program to multiply two floating point numbers
+#include<stdio.h>
+int main() {
+    float a;
+    float b;
+    float product;
+    printf("Enter the first number: ");
+    scanf("%f",&a);
+    printf("Enter the second number: ");
+    scanf("%f",&b);
+    product = a * b;
+    printf("Product: %.2f \n ",a*b);
+    return 0;
+}
